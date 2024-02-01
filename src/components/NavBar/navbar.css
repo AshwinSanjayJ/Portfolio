@@ -2,9 +2,9 @@
 
     height: 5rem;
     width: 100vw;
-    max-width: 75rem;
+    max-width: 120rem;
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 1rem 1.2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,6 +31,13 @@
     object-fit: cover;
     height: 2rem;
     width:  2rem;
+}
+
+.desktopMenuItem:hover {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+
 }
 
 .desktopMenuBtn{
