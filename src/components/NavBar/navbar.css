@@ -4,7 +4,7 @@
     width: 100vw;
     max-width: 120rem;
     margin: 0 auto;
-    padding: 1rem 1.2rem;
+    padding: 1rem 1.9rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,8 +16,8 @@
 .logo{
      
     object-fit: cover;
-    height: 3rem;
-    width: 4rem;
+    height: 4.5rem;
+    width: 3rem;
 }
 
 .desktopMenuItem{
@@ -34,9 +34,12 @@
 }
 
 .desktopMenuItem:hover {
-    color: yellow;
+    color: rgb(255,36,0);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid rgb(255,36,0);
+    transform: scale(1);
+    transition: ease-in 50ms;
+    
 
 }
 
@@ -50,4 +53,14 @@
     padding: 0 1rem;
     border-radius: 2rem;
     cursor: pointer;
+    transition: ease-in-out 300ms;
 }
+
+.desktopMenuBtn:hover{
+
+    color: black;
+    transform: scale(1.1);
+    background: #1DB954;
+    transition: ease-in-out 50ms;
+}
+

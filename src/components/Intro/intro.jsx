@@ -8,11 +8,11 @@ const Intro = () => {
 <section id="intro">
   <div className="introContent">
     <span className="hello">Hello,</span>
-    <span className="introText">I'm <span className="introName">Ashwin</span><br />Website Designer</span>
+    <span className="introText">I'm <span className="introName">Ashwin Sanjay J</span><br />Website Designer</span>
     <p className="introPara">A skilled webpage developer with experience in creating<br/>a fabulous and user-friendly websites.</p>
-    <Link><button className="btn"><img src="hireme.png" alt="" className='btnimg' /><b>Hire Me</b></button></Link>
+    <Link><button className="btn"><img src="hires.png" alt="" className='btnimg' /><b>Hire Me</b></button></Link>
   </div>
-  <img src="bg.png" alt="Profile" className="bg" />
+  <img src="bg2.png" alt="Profile" className="bg" />
 </section>
 )
 }
