@@ -1,0 +1,76 @@
+#works{
+    margin: 0 auto;
+    min-height: calc(100vh - 3rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+    margin-top: 4rem;
+    
+}
+
+.worksTitle{
+    margin: 1rem 0;
+    font-weight: 600;
+    font-size: 3rem;
+    border-bottom: 1px solid rgb(255,36,0) ;
+}
+
+.worksDesc{
+
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 60rem;
+    padding: 0 2rem;
+}
+
+.workImgs{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 65rem;
+}
+
+.worksimg{
+    object-fit: cover;
+    height: 20rem;
+    width: 17rem;
+    margin: 0.7rem;  
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.worksimg:hover{
+
+    transform: scale(1,1.05);
+    transition: ease-in-out 200ms;
+}
+
+.red{
+    color: rgb(255,36,0);
+}
+
+.worksbtn{
+    
+    padding: 0.5rem 2.5rem;
+    border: none;
+    background: white;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+.worksbtn:hover{
+      
+    color: white;
+    background: rgb(255,36,0);
+    transform: scale(1,1.08);
+    transition: ease-in-out 200ms;
+}
